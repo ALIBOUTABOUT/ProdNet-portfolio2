@@ -49,10 +49,16 @@
   border-radius: 16px;
   cursor: pointer;
   transition: all 0.3s var(--ease-out);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .navItem:hover {
   background: var(--color-paper-warm);
+}
+
+.navItem:active {
+  transform: scale(0.95);
 }
 
 .navItem.active {
@@ -157,9 +163,63 @@
   transform: translateX(0);
 }
 
-/* Hide on mobile */
+/* Responsive adjustments */
 @media (max-width: 1024px) {
   .sideNav {
+    left: 16px;
+    transform: translateY(-50%) scale(0.9);
+  }
+
+  .sideNav.rtl {
+    right: 16px;
+  }
+
+  .track {
+    padding: 8px 6px;
+    gap: 2px;
+  }
+
+  .navItem {
+    padding: 8px 10px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  /* Always show numbers on mobile, hide labels */
+  .label {
     display: none;
+  }
+
+  .number {
+    opacity: 1;
+    font-size: 10px;
+  }
+
+  .navItem.active .number {
+    color: var(--color-leaf);
+    font-weight: 600;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .sideNav {
+    left: 8px;
+    transform: translateY(-50%) scale(0.85);
+  }
+
+  .sideNav.rtl {
+    right: 8px;
+  }
+
+  .track {
+    padding: 6px 4px;
+  }
+
+  .navItem {
+    padding: 6px 8px;
   }
 }
