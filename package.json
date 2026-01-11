@@ -2,7 +2,6 @@
   "name": "prodnet-portfolio",
   "version": "1.0.0",
   "description": "ProdNet - Agricultural Digital Platform Portfolio",
-  "homepage": "https://aliboutabout.github.io/ProdNet-portfolio2",
   "private": true,
   "dependencies": {
     "gh-pages": "^6.1.0",
