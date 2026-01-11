@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "language": "EN"
+  },
+  "hero": {
+    "title": "ProdNet",
+    "tagline": "A digital platform connecting agricultural stakeholders for sustainable growth and efficient resource coordination.",
+    "videoDuration": "Watch the ProdNet demo video (5 minutes)",
+    "watchDemo": "Watch Demo Video"
+  },
+  "overview": {
+    "title": "Project Overview",
+    "problem": {
+      "title": "The Challenge",
+      "description": "The agricultural sector faces significant coordination challenges. Farmers struggle to access capital, investors lack transparent opportunities, and experts remain disconnected from those who need their guidance. Traditional communication channels are fragmented, leading to inefficiencies, missed opportunities, and suboptimal resource allocation across the agricultural value chain."
+    },
+    "solution": {
+      "title": "Our Solution",
+      "description": "ProdNet is a centralized digital platform designed to bridge the gap between farmers, investors, and agricultural experts. By providing a unified ecosystem, ProdNet facilitates seamless communication, transparent project tracking, and efficient resource matching. The platform enables farmers to showcase their projects, investors to discover vetted opportunities, and experts to provide targeted guidance—all within a secure, user-friendly environment."
+    }
+  },
+  "actors": {
+    "title": "Platform Actors",
+    "farmer": {
+      "title": "Farmer",
+      "role": "Agricultural project owners seeking funding and expertise.",
+      "value": "ProdNet empowers farmers to present their projects professionally, connect with potential investors, and access expert consultations to optimize their agricultural practices and increase productivity."
+    },
+    "investor": {
+      "title": "Investor",
+      "role": "Capital providers looking for agricultural investment opportunities.",
+      "value": "ProdNet offers investors a curated portfolio of agricultural projects with transparent information, enabling informed investment decisions and direct communication with project owners."
+    },
+    "expert": {
+      "title": "Agricultural Expert",
+      "role": "Domain specialists providing technical guidance and validation.",
+      "value": "ProdNet connects experts with farmers and investors who need their knowledge, creating opportunities for consultation, project validation, and knowledge transfer within the agricultural community."
+    }
+  },
+  "screenshots": {
+    "title": "Application Screens",
+    "farmer": "Farmer Home Page",
+    "investor": "Investor Home Page",
+    "expert": "Expert Home Page",
+    "placeholder": "Screenshot Placeholder"
+  },
+  "vision": {
+    "title": "Future Vision",
+    "intro": "ProdNet is designed with scalability and evolution in mind. Beyond the current MVP, our roadmap includes:",
+    "features": {
+      "verification": {
+        "title": "Advanced Verification System",
+        "description": "Implementation of multi-tier identity verification, document authentication, and project validation protocols to ensure platform integrity and user trust."
+      },
+      "lifecycle": {
+        "title": "Investment Lifecycle Tracking",
+        "description": "Comprehensive tools for monitoring investment progress, milestone achievements, financial reporting, and return on investment analytics throughout the project lifecycle."
+      },
+      "validation": {
+        "title": "Expert Validation Framework",
+        "description": "A structured system for expert certification, peer review processes, and quality assurance of agricultural guidance provided on the platform."
+      },
+      "scalability": {
+        "title": "Platform Scalability",
+        "description": "Technical infrastructure designed to support regional expansion, multi-language support, integration with agricultural data sources, and API connectivity with external systems."
+      }
+    }
+  },
+  "team": {
+    "title": "Founding Team"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Interested in learning more about ProdNet? Reach out to our team.",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "project": "ProdNet",
+    "context": "Academic Project — UDL-SBA Informatics Department"
+  }
+}

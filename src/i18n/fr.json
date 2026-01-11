@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "language": "FR"
+  },
+  "hero": {
+    "title": "ProdNet",
+    "tagline": "Une plateforme numérique connectant les acteurs agricoles pour une croissance durable et une coordination efficace des ressources.",
+    "videoDuration": "Regardez la démo de ProdNet (5 minutes)",
+    "watchDemo": "Voir la Démo"
+  },
+  "overview": {
+    "title": "Aperçu du Projet",
+    "problem": {
+      "title": "Le Défi",
+      "description": "Le secteur agricole fait face à d'importants défis de coordination. Les agriculteurs peinent à accéder au capital, les investisseurs manquent d'opportunités transparentes, et les experts restent déconnectés de ceux qui ont besoin de leurs conseils. Les canaux de communication traditionnels sont fragmentés, entraînant des inefficacités, des opportunités manquées et une allocation sous-optimale des ressources dans la chaîne de valeur agricole."
+    },
+    "solution": {
+      "title": "Notre Solution",
+      "description": "ProdNet est une plateforme numérique centralisée conçue pour combler le fossé entre agriculteurs, investisseurs et experts agricoles. En fournissant un écosystème unifié, ProdNet facilite la communication fluide, le suivi transparent des projets et l'allocation efficace des ressources. La plateforme permet aux agriculteurs de présenter leurs projets, aux investisseurs de découvrir des opportunités vérifiées, et aux experts de fournir des conseils ciblés—le tout dans un environnement sécurisé et convivial."
+    }
+  },
+  "actors": {
+    "title": "Acteurs de la Plateforme",
+    "farmer": {
+      "title": "Agriculteur",
+      "role": "Propriétaires de projets agricoles à la recherche de financement et d'expertise.",
+      "value": "ProdNet permet aux agriculteurs de présenter leurs projets de manière professionnelle, de se connecter avec des investisseurs potentiels et d'accéder à des consultations d'experts pour optimiser leurs pratiques agricoles et augmenter leur productivité."
+    },
+    "investor": {
+      "title": "Investisseur",
+      "role": "Fournisseurs de capitaux à la recherche d'opportunités d'investissement agricole.",
+      "value": "ProdNet offre aux investisseurs un portefeuille sélectionné de projets agricoles avec des informations transparentes, permettant des décisions d'investissement éclairées et une communication directe avec les propriétaires de projets."
+    },
+    "expert": {
+      "title": "Expert Agricole",
+      "role": "Spécialistes du domaine fournissant des conseils techniques et une validation.",
+      "value": "ProdNet connecte les experts avec les agriculteurs et investisseurs qui ont besoin de leurs connaissances, créant des opportunités de consultation, de validation de projets et de transfert de connaissances au sein de la communauté agricole."
+    }
+  },
+  "screenshots": {
+    "title": "Écrans de l'Application",
+    "farmer": "Page d'accueil Agriculteur",
+    "investor": "Page d'accueil Investisseur",
+    "expert": "Page d'accueil Expert",
+    "placeholder": "Espace réservé à la capture d'écran"
+  },
+  "vision": {
+    "title": "Vision Future",
+    "intro": "ProdNet est conçu avec l'évolutivité et l'évolution à l'esprit. Au-delà du MVP actuel, notre feuille de route comprend:",
+    "features": {
+      "verification": {
+        "title": "Système de Vérification Avancé",
+        "description": "Mise en œuvre de la vérification d'identité multi-niveaux, de l'authentification des documents et des protocoles de validation des projets pour assurer l'intégrité de la plateforme et la confiance des utilisateurs."
+      },
+      "lifecycle": {
+        "title": "Suivi du Cycle d'Investissement",
+        "description": "Outils complets pour surveiller la progression des investissements, les réalisations d'étapes, les rapports financiers et les analyses de retour sur investissement tout au long du cycle de vie du projet."
+      },
+      "validation": {
+        "title": "Cadre de Validation des Experts",
+        "description": "Un système structuré pour la certification des experts, les processus d'évaluation par les pairs et l'assurance qualité des conseils agricoles fournis sur la plateforme."
+      },
+      "scalability": {
+        "title": "Évolutivité de la Plateforme",
+        "description": "Infrastructure technique conçue pour soutenir l'expansion régionale, le support multilingue, l'intégration avec les sources de données agricoles et la connectivité API avec les systèmes externes."
+      }
+    }
+  },
+  "team": {
+    "title": "Équipe Fondatrice"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "email": "Email",
+    "phone": "Téléphone",
+    "message": "Intéressé par ProdNet? Contactez notre équipe.",
+    "sendMessage": "Envoyer un Message"
+  },
+  "footer": {
+    "project": "ProdNet",
+    "context": "Projet Académique — Département Informatique UDL-SBA"
+  }
+}

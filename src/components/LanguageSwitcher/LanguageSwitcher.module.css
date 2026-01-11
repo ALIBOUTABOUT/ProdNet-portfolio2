@@ -1,0 +1,41 @@
+/* Language Switcher - Understated, elegant */
+
+.switcher {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  background: var(--color-paper-dark);
+  border-radius: var(--radius-md);
+}
+
+.button {
+  padding: 6px 12px;
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--color-ink-muted);
+  background: transparent;
+  border-radius: 5px;
+  transition: all 0.25s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover:not(.active) {
+  color: var(--color-ink-light);
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.button.active {
+  color: var(--color-paper);
+  background: var(--color-ink);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .button {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+}

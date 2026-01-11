@@ -1,0 +1,56 @@
+/* Scroll to Top Button */
+
+.scrollButton {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color-leaf);
+  color: var(--color-paper);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 4px 16px rgba(45, 90, 39, 0.3);
+  transition: all 0.3s var(--ease-out);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  z-index: 1000;
+}
+
+.scrollButton.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scrollButton:hover {
+  background: #234a1f;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(45, 90, 39, 0.4);
+}
+
+.scrollButton:active {
+  transform: translateY(-2px);
+}
+
+.arrow {
+  display: block;
+  line-height: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .scrollButton {
+    width: 48px;
+    height: 48px;
+    bottom: 24px;
+    right: 24px;
+    font-size: 20px;
+  }
+}
